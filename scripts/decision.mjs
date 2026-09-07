@@ -115,6 +115,10 @@ export function evaluateDecision(snapshot, previousSnapshot = null, thresholds =
       liquidityRisk = true
       alerts.push({ severity: 'high', code: 'THIN_DEPTH', title: '正负2%盘口深度低于阈值', detail: '大额交易可能产生明显滑点。' })
     }
+  } else if (snapshot.market.observedDepth2PctUsd !== null) {
+    liquidityReasons.push(`仅部分市场可用，已观察深度约 $${Math.round(snapshot.market.observedDepth2PctUsd).toLocaleString('en-US')}，不据此触发硬阈值`)
+  } else {
+    liquidityReasons.push('现货与永续正负2%深度均不可用')
   }
   if (previousSnapshot && snapshot.market.depth2PctUsd !== null && previousSnapshot.market.depth2PctUsd !== null) {
     const depthUp = snapshot.market.depth2PctUsd > previousSnapshot.market.depth2PctUsd
@@ -159,4 +163,3 @@ export function evaluateDecision(snapshot, previousSnapshot = null, thresholds =
     alerts,
   }
 }
-

@@ -129,7 +129,7 @@ function render(data) {
     tickerItem('7日协议收入', money(revenue.protocolRevenue7dUsd), '', revenue7Delta),
     tickerItem('30日协议收入', money(revenue.protocolRevenue30dUsd), `V2 占 ${percent(revenue.v2RevenueShare30dPct)}`),
     tickerItem('PONS 年化持币收益率', percent(revenue.annualizedHolderRevenueYieldPct, 2), '基于近30日持币人收入'),
-    tickerItem('正负2%可观测深度', money(market.depth2PctUsd), 'KuCoin 现货 + Binance 永续'),
+    tickerItem('正负2%可观测深度', money(market.depth2PctUsd ?? market.observedDepth2PctUsd), market.depth2PctUsd === null ? '市场覆盖不完整' : 'KuCoin 现货 + Binance 永续'),
   ].join('')
 
   $('#gate-grid').innerHTML = Object.values(decision.dimensions).map((dimension) => {

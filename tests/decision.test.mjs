@@ -43,3 +43,10 @@ test('owner change triggers risk downgrade', () => {
   assert.equal(result.status, 'risk_downgrade')
   assert.ok(result.alerts.some((alert) => alert.code === 'PRIVILEGE_CHANGE'))
 })
+
+test('partial order-book coverage does not create a false liquidity risk', () => {
+  const current = snapshot({ market: { depth2PctUsd: null, observedDepth2PctUsd: 80000, dexLiquidityUsd: 1000000, fundingRatePct: null } })
+  const result = evaluateDecision(current, snapshot(), { minRequiredCoveragePct: 85, minDepth2PctUsd: 250000 })
+  assert.equal(result.status, 'event_watch')
+  assert.ok(!result.alerts.some((alert) => alert.code === 'THIN_DEPTH'))
+})
