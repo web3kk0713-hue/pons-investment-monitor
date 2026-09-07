@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0c1722" />
+    <meta name="description" content="PONS 每日基本面、价值捕获、留存、安全与流动性投资监控。" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>PONS 每日投资监测台</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">跳到主要内容</a>
+    <header class="topbar">
+      <a class="brand" href="#top" aria-label="PONS 投资监测台首页">
+        <span class="brand-mark" aria-hidden="true">P</span>
+        <span><strong>PONS 投资监测台</strong><small>每日基本面与风险信号</small></span>
+      </a>
+      <nav aria-label="页面导航">
+        <a href="#gates">四维门槛</a>
+        <a href="#capture">价值捕获</a>
+        <a href="#market">市场风险</a>
+        <a href="#quality">数据质量</a>
+      </nav>
+      <div class="live-stamp"><span></span><b id="freshness">正在读取</b></div>
+    </header>
+
+    <main id="main">
+      <section class="verdict" id="top" aria-labelledby="verdict-title">
+        <div class="verdict-copy">
+          <p class="context">投资状态 / 只有四个维度同时改善才升级</p>
+          <h1 id="verdict-title">读取每日快照…</h1>
+          <p class="verdict-summary" id="verdict-summary">正在核对价值捕获、留存、安全与流动性。</p>
+          <div class="verdict-meta">
+            <span id="generated-at">数据时间 —</span>
+            <span id="chain-block">区块 —</span>
+            <span id="coverage-text">覆盖率 —</span>
+          </div>
+        </div>
+        <div class="gate-meter" aria-label="关键指标覆盖率">
+          <div class="gate-meter-label"><span>关键指标覆盖</span><strong id="coverage-number">—</strong></div>
+          <div class="meter-track"><i id="coverage-bar"></i></div>
+          <p>覆盖不足、来源过期或任一维度未知，都不能升级为基本面配置。</p>
+        </div>
+      </section>
+
+      <section class="ticker" aria-label="关键市场指标" id="ticker"></section>
+
+      <section class="section-shell" id="gates">
+        <div class="section-heading">
+          <div><p class="context">投资门槛</p><h2>四把锁，缺一不可</h2></div>
+          <p>状态不是综合打分。高收入不能抵消没有代币价值捕获，也不能抵消安全或流动性风险。</p>
+        </div>
+        <div class="gate-grid" id="gate-grid"></div>
+      </section>
+
+      <section class="section-shell alert-section" aria-labelledby="alert-title">
+        <div class="section-heading compact">
+          <div><p class="context">今日重点</p><h2 id="alert-title">需要先处理的信号</h2></div>
+        </div>
+        <div class="alert-list" id="alert-list"></div>
+      </section>
+
+      <section class="section-shell" id="capture">
+        <div class="section-heading">
+          <div><p class="context">收入与代币</p><h2>平台赚钱，不等于 PONS 受益</h2></div>
+          <p>收入按 V1 / V2 分开；持币人收入、待回购资金、死地址变化各自显示，避免把承诺当成已执行回购。</p>
+        </div>
+        <div class="capture-layout">
+          <div class="chart-panel">
+            <div class="panel-title">
+              <div><h3>每日协议收入</h3><p>最近 30 个可用数据点 · V1 与 V2</p></div>
+              <div class="legend"><span class="v1">V1</span><span class="v2">V2</span></div>
+            </div>
+            <div id="revenue-chart" class="chart-wrap" aria-label="V1 与 V2 每日协议收入折线图"></div>
+          </div>
+          <aside class="valuation-ledger" id="valuation-ledger" aria-label="估值账本"></aside>
+        </div>
+        <div class="cashflow-rail" id="cashflow-rail"></div>
+      </section>
+
+      <section class="section-shell split-section" id="market">
+        <div>
+          <div class="section-heading compact">
+            <div><p class="context">可执行性</p><h2>流动性与杠杆温度</h2></div>
+          </div>
+          <div id="liquidity-panel" class="liquidity-panel"></div>
+        </div>
+        <div>
+          <div class="section-heading compact">
+            <div><p class="context">采用与质量</p><h2>热度能否留下来</h2></div>
+          </div>
+          <div id="activity-ledger" class="data-ledger"></div>
+        </div>
+      </section>
+
+      <section class="section-shell" id="holders">
+        <div class="section-heading">
+          <div><p class="context">筹码与大额异动</p><h2>谁在移动 PONS</h2></div>
+          <p>公开 RPC 每日扫描最近区块的大额转账。未接入地址标签前，不把普通路由、池内结算或内部转账误判为交易所流入。</p>
+        </div>
+        <div class="holder-summary" id="holder-summary"></div>
+        <div class="table-scroll">
+          <table>
+            <thead><tr><th>金额</th><th>转出</th><th>转入</th><th>区块</th><th>交易</th></tr></thead>
+            <tbody id="whale-table"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="section-shell" id="security">
+        <div class="section-heading">
+          <div><p class="context">治理与权限</p><h2>谁能改变费用和资金路径</h2></div>
+          <p>每日对比 Owner、Hook owner、sweep operator 和费率策略。地址变化是硬红旗，不会被收入增长抵消。</p>
+        </div>
+        <div class="security-grid" id="security-grid"></div>
+      </section>
+
+      <section class="section-shell" id="quality">
+        <div class="section-heading">
+          <div><p class="context">证据底座</p><h2>数据覆盖与来源健康</h2></div>
+          <p>“待补齐”不是零。缺少 creator 复发、毕业 D7 留存、项目集中度等数据时，结论自动保持保守。</p>
+        </div>
+        <div class="quality-summary" id="quality-summary"></div>
+        <div class="table-scroll">
+          <table>
+            <thead><tr><th>数据源</th><th>状态</th><th>检查时间</th><th>说明</th></tr></thead>
+            <tbody id="source-table"></tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p><strong>PONS 每日投资监测台</strong> · 自动快照不构成投资建议。先看价值捕获、留存、安全和可退出性，再看热度。</p>
+      <p><a href="https://www.ponsfamily.com/launchpad" target="_blank" rel="noreferrer">Pons</a><a href="https://defillama.com/protocol/pons-v1" target="_blank" rel="noreferrer">DefiLlama</a><a href="https://www.coingecko.com/en/coins/pons" target="_blank" rel="noreferrer">CoinGecko</a></p>
+    </footer>
+
+    <noscript>此看板需要 JavaScript 才能读取每日数据快照。</noscript>
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>

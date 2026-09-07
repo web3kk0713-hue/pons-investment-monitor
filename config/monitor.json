@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "timezone": "Asia/Shanghai",
+  "chain": {
+    "name": "Robinhood Chain",
+    "chainId": 4663,
+    "rpc": "https://rpc.mainnet.chain.robinhood.com"
+  },
+  "contracts": {
+    "ponsToken": "0x39dBED3a2bd333467115dE45665cC57F813C4571",
+    "dead": "0x000000000000000000000000000000000000dEaD",
+    "v2Factory": "0x7eD598BcEf8bd9Edd8C97A195C6d13f40801EC7e",
+    "v2Hook": "0xE5e702641Ea86F4ae6cC3cDaeD2B886f976Be044",
+    "splitter": "0x5795d227DcC305Afe212Bef18E81B111dEF7C324",
+    "buybackIntake": "0xCD9107D2bDFAD6b56A7ac235BeBE46e555c1801C",
+    "buybackEscrow": "0xd3AFEB2a57f70eF218Aa82451c51B2fb0416Ac9e",
+    "poolsTokenFactory": "0x000000e200088d55c39a11f609e5f667729ad49b"
+  },
+  "topics": {
+    "poolsTokenCreated": "0x4ef8284ecf42d4cd19686572ffd87f630858c82398911e776cb831de35eddbf4",
+    "erc20Transfer": "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef"
+  },
+  "thresholds": {
+    "freshHours": 30,
+    "largeTransferSupplyPct": 0.1,
+    "maxTop10VolumeSharePct": 55,
+    "minGraduationRatePct": 1.5,
+    "minD7RetentionPct": 20,
+    "maxAnnualizedMcapProtocolRevenue": 20,
+    "minDepth2PctUsd": 250000,
+    "maxAbsFundingPct": 0.05,
+    "minRequiredCoveragePct": 85
+  },
+  "manual": {
+    "auditStatus": "未发现官方正式审计报告",
+    "auditEvidenceUrl": "https://github.com/ponsdotdev/ponsfamily",
+    "auditReviewedAt": "2026-09-07",
+    "regionStatus": "需要逐地区法律复核；站点可访问性不代表合规可用",
+    "regionEvidenceUrl": "https://docs.ponsfamily.com/"
+  }
+}
