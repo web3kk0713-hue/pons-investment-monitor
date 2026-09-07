@@ -1,25 +1,25 @@
 [
   {
     "date": "2026-09-07",
-    "generatedAt": "2026-09-07T04:13:15.378Z",
+    "generatedAt": "2026-09-07T04:16:17.376Z",
     "market": {
-      "priceUsd": 0.73328,
-      "priceChange24hPct": -18.48854,
-      "marketCapUsd": 522159273,
-      "fullyDilutedValueUsd": 514596972,
+      "priceUsd": 0.736537,
+      "priceChange24hPct": -18.74747,
+      "marketCapUsd": 524268107,
+      "fullyDilutedValueUsd": 516604156,
       "circulatingSupplyTokens": 712104762.0614183,
       "totalSupplyTokens": 1000000000,
-      "volume24hUsd": 192267767,
-      "marketCapRank": 107,
-      "spotDepth2PctUsd": 88630.208648,
-      "spotBidDepth2PctUsd": 49489.948338,
-      "spotAskDepth2PctUsd": 39140.26031,
+      "volume24hUsd": 193219866,
+      "marketCapRank": 105,
+      "spotDepth2PctUsd": 84358.83160399999,
+      "spotBidDepth2PctUsd": 42719.78902699999,
+      "spotAskDepth2PctUsd": 41639.042577,
       "perpDepth2PctUsd": null,
       "perpBidDepth2PctUsd": null,
       "perpAskDepth2PctUsd": null,
-      "depth2PctUsd": 88630.208648,
-      "dexLiquidityUsd": 23727409.840000007,
-      "dexVolume24hUsd": 155821434.37000003,
+      "depth2PctUsd": 84358.83160399999,
+      "dexLiquidityUsd": 23870498.689999998,
+      "dexVolume24hUsd": 155747180.06000006,
       "dexPairCount": 30,
       "fundingRatePct": null,
       "openInterestTokens": null,
@@ -46,23 +46,23 @@
       "v2RevenueShare30dPct": 83.3164403770734,
       "cumulativeProtocolRevenueUsd": 20833639.87,
       "cumulativeCreatorEarningsUsd": 70731046.64000002,
-      "annualizedProtocolRevenueYieldPct": 24.789096104015755,
-      "annualizedHolderRevenueYieldPct": 3.0013118238733263,
-      "marketCapToAnnualizedProtocolRevenue": 4.034031720253015,
-      "marketCapToAnnualizedHolderRevenue": 33.31876388336936,
+      "annualizedProtocolRevenueYieldPct": 24.689383594337162,
+      "annualizedHolderRevenueYieldPct": 2.989239244339538,
+      "marketCapToAnnualizedProtocolRevenue": 4.0503238818378735,
+      "marketCapToAnnualizedHolderRevenue": 33.45332769511885,
       "holderCaptureToProtocolRevenuePct": 12.107387099875428
     },
     "capture": {
       "deadBalanceTokens": 298305056.79785585,
       "deadBalancePct": 29.830505679785585,
-      "deadBalanceDeltaTokens": 24545.35523802042,
-      "deadBalanceDeltaUsd": 17998.618088935615,
+      "deadBalanceDeltaTokens": 0,
+      "deadBalanceDeltaUsd": 0,
       "attributedBuyback30dUsd": null,
-      "pendingBuybackUsd": 660260.9085592419,
-      "pendingBuybackToRevenue30dPct": 6.12115173242412,
-      "splitterValueUsd": 2825167.592186648,
-      "intakeValueUsd": 0.05395481683510118,
-      "escrowValueUsd": 660260.854604425,
+      "pendingBuybackUsd": 661148.8526608002,
+      "pendingBuybackToRevenue30dPct": 6.129383691192373,
+      "splitterValueUsd": 2823308.0516655683,
+      "intakeValueUsd": 0.053895689115057405,
+      "escrowValueUsd": 661148.7987651111,
       "note": "死地址增量仅表示通缩变化；完成交易路径归因前不计为协议回购。"
     },
     "activity": {
@@ -125,8 +125,7 @@
           "label": "价值捕获",
           "reasons": [
             "7日协议收入环比增加 359.5%",
-            "尚无可归因到协议路径的 PONS 回购金额",
-            "死地址较上次增加 24,545 PONS，但归因仍待验证"
+            "尚无可归因到协议路径的 PONS 回购金额"
           ]
         },
         "retention": {
@@ -147,7 +146,7 @@
           "state": "unknown",
           "label": "流动性",
           "reasons": [
-            "可观测市场正负2%深度约 $88,630",
+            "可观测市场正负2%深度约 $84,359",
             "缺 Top10 项目成交集中度，不能完成流动性维度判定"
           ]
         }
