@@ -1,6 +1,10 @@
 name: Daily PONS investment monitor
 
 on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - "site/data/**"
   schedule:
     # 09:15 Asia/Shanghai every day (GitHub cron uses UTC).
     - cron: "15 1 * * *"
@@ -64,4 +68,3 @@ jobs:
       - name: Deploy GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-
