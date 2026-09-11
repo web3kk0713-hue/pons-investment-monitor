@@ -703,5 +703,176 @@
         }
       ]
     }
+  },
+  {
+    "date": "2026-09-11",
+    "generatedAt": "2026-09-11T01:22:53.939Z",
+    "market": {
+      "priceUsd": 0.617705,
+      "priceChange24hPct": -1.41964,
+      "marketCapUsd": 439870884,
+      "fullyDilutedValueUsd": 429775501,
+      "circulatingSupplyTokens": 712104762.0614183,
+      "totalSupplyTokens": 1000000000,
+      "volume24hUsd": 154835130,
+      "marketCapRank": 116,
+      "spotDepth2PctUsd": 114871.55636999998,
+      "spotBidDepth2PctUsd": 64685.394928,
+      "spotAskDepth2PctUsd": 50186.16144199998,
+      "perpDepth2PctUsd": null,
+      "perpBidDepth2PctUsd": null,
+      "perpAskDepth2PctUsd": null,
+      "depth2PctUsd": null,
+      "observedDepth2PctUsd": 114871.55636999998,
+      "depthCoverage": "spot_only",
+      "dexLiquidityUsd": 24674225.619999997,
+      "dexVolume24hUsd": 107027579.67999996,
+      "dexPairCount": 30,
+      "fundingRatePct": null,
+      "openInterestTokens": null,
+      "openInterestUsd": null,
+      "basisPct": null,
+      "liquidations24hUsd": null
+    },
+    "revenue": {
+      "protocolRevenue7dUsd": 10319703,
+      "protocolRevenue30dUsd": 18595214,
+      "previousProtocolRevenue7dUsd": 6223434,
+      "previousProtocolRevenue30dUsd": null,
+      "fees7dUsd": 58023304,
+      "fees30dUsd": 101477258,
+      "creatorRevenue7dUsd": 47703601,
+      "creatorRevenue30dUsd": 82882044,
+      "holderRevenue30dUsd": 7982579,
+      "v1Revenue7dUsd": 337611,
+      "v1Revenue30dUsd": 1607515,
+      "v2Revenue7dUsd": 9982092,
+      "v2Revenue30dUsd": 16987699,
+      "v1HolderRevenue30dUsd": 7982579,
+      "v2HolderRevenue30dUsd": null,
+      "v2RevenueShare30dPct": 91.35522183288668,
+      "cumulativeProtocolRevenueUsd": 27107184.65,
+      "cumulativeCreatorEarningsUsd": 99207247.59000002,
+      "annualizedProtocolRevenueYieldPct": 50.729106225635064,
+      "annualizedHolderRevenueYieldPct": 21.77706037938169,
+      "marketCapToAnnualizedProtocolRevenue": 1.971254915377688,
+      "marketCapToAnnualizedHolderRevenue": 4.59198800287476,
+      "holderCaptureToProtocolRevenuePct": 42.92813731533286
+    },
+    "capture": {
+      "deadBalanceTokens": 304279787.4116339,
+      "deadBalancePct": 30.427978741163393,
+      "deadBalanceDeltaTokens": 1499743.972113192,
+      "deadBalanceDeltaUsd": 926399.3502941793,
+      "attributedBuyback30dUsd": null,
+      "pendingBuybackUsd": 1495323.7900825555,
+      "pendingBuybackToRevenue30dPct": 8.041444374248963,
+      "splitterValueUsd": 1621287.8862688649,
+      "intakeValueUsd": 0,
+      "escrowValueUsd": 1495323.7900825555,
+      "note": "死地址增量仅表示通缩变化；完成交易路径归因前不计为协议回购。"
+    },
+    "activity": {
+      "ponsLaunches24h": 25193,
+      "poolsLaunches24h": 46,
+      "ponsIssuanceShareProvisionalPct": 99.81774238282024,
+      "issuanceShareQuality": "partial_mixed_window",
+      "launchesAllTime": 645295,
+      "volumeAllTimeUsd": 10600708903.927649,
+      "curveVolume30dUsd": null,
+      "postGraduationVolume30dUsd": null,
+      "ponsTradeShare30dPct": null,
+      "poolsTradeShare30dPct": null
+    },
+    "retention": {
+      "uniqueCreators30d": null,
+      "uniqueCreatorsAllTime": 267690,
+      "creatorRepeatRate30dPct": null,
+      "graduationRate30dPct": null,
+      "graduatedProjectD7RetentionPct": null,
+      "top10ProjectVolumeSharePct": null,
+      "botVolumeSharePct": null,
+      "newUserShare30dPct": null
+    },
+    "holders": {
+      "holderCount": null,
+      "top10ConcentrationPct": null,
+      "top50ConcentrationPct": null,
+      "exchangeNetflow24hTokens": null,
+      "largeTransfers": [],
+      "largeTransferScanBlocks": 12001,
+      "largeTransferQuality": "partial"
+    },
+    "security": {
+      "factoryOwner": "0x263ed295dafae1d9aadd6e56c4b6f9f38ee019dd",
+      "hookOwner": "0x263ed295dafae1d9aadd6e56c4b6f9f38ee019dd",
+      "sweepOperator": "0x49bbf2b70955fb3a106e084d4bfda92d334573d2",
+      "feePolicy": {
+        "protocolFeeRecipient": "0x263ed295dafae1d9aadd6e56c4b6f9f38ee019dd",
+        "protocolFeeShareBps": 3000,
+        "buybackBurnBps": 5000,
+        "hookFeeBps": 100,
+        "maxInternalPriceImpactBps": 300
+      },
+      "auditStatus": "未发现官方正式审计报告",
+      "auditReviewedAt": "2026-09-07",
+      "auditEvidenceUrl": "https://github.com/ponsdotdev/ponsfamily",
+      "regionStatus": "需要逐地区法律复核；站点可访问性不代表合规可用",
+      "regionEvidenceUrl": "https://docs.ponsfamily.com/"
+    },
+    "decision": {
+      "status": "event_watch",
+      "label": "事件驱动观察",
+      "coveragePct": 50,
+      "coveredRequiredMetrics": 8,
+      "totalRequiredMetrics": 16,
+      "dimensions": {
+        "valueCapture": {
+          "state": "unknown",
+          "label": "价值捕获",
+          "reasons": [
+            "7日协议收入环比增加 65.8%",
+            "尚无可归因到协议路径的 PONS 回购金额",
+            "死地址较上次增加 1,499,744 PONS，但归因仍待验证"
+          ]
+        },
+        "retention": {
+          "state": "unknown",
+          "label": "留存与质量",
+          "reasons": [
+            "creator 复发、毕业 D7 留存或项目集中度仍缺实时可比数据"
+          ]
+        },
+        "security": {
+          "state": "not_improving",
+          "label": "安全与治理",
+          "reasons": [
+            "权限地址稳定，但仍未发现官方正式审计报告"
+          ]
+        },
+        "liquidity": {
+          "state": "unknown",
+          "label": "流动性",
+          "reasons": [
+            "仅部分市场可用，已观察深度约 $114,872，不据此触发硬阈值",
+            "需要次日快照与项目集中度数据才能判断改善"
+          ]
+        }
+      },
+      "alerts": [
+        {
+          "severity": "high",
+          "code": "V2_CAPTURE_GAP",
+          "title": "V2 增长没有直接回流 PONS",
+          "detail": "V2 已贡献多数协议收入，但当前未观察到 V2 对 PONS 持有人的直接收入。"
+        },
+        {
+          "severity": "medium",
+          "code": "LOW_COVERAGE",
+          "title": "关键指标覆盖不足",
+          "detail": "当前覆盖 50%，未达到升级阈值。"
+        }
+      ]
+    }
   }
 ]
