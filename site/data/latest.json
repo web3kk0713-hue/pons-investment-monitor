@@ -1,34 +1,34 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-16T01:23:30.186Z",
-  "date": "2026-09-16",
+  "generatedAt": "2026-09-17T01:24:00.814Z",
+  "date": "2026-09-17",
   "timezone": "Asia/Shanghai",
   "chain": {
     "name": "Robinhood Chain",
     "chainId": 4663,
     "rpc": "https://rpc.mainnet.chain.robinhood.com",
-    "block": 64112157
+    "block": 64970783
   },
   "market": {
-    "priceUsd": 0.626797,
-    "priceChange24hPct": -0.33445,
-    "marketCapUsd": 446313816,
-    "fullyDilutedValueUsd": 431205521,
+    "priceUsd": 0.617868,
+    "priceChange24hPct": -1.3505,
+    "marketCapUsd": 440460510,
+    "fullyDilutedValueUsd": 425059847,
     "circulatingSupplyTokens": 712104762.0614183,
     "totalSupplyTokens": 1000000000,
-    "volume24hUsd": 119138621,
+    "volume24hUsd": 97826198,
     "marketCapRank": 112,
-    "spotDepth2PctUsd": 132232.239476,
-    "spotBidDepth2PctUsd": 80142.136883,
-    "spotAskDepth2PctUsd": 52090.10259299999,
+    "spotDepth2PctUsd": 126905.16441399998,
+    "spotBidDepth2PctUsd": 68201.48764099999,
+    "spotAskDepth2PctUsd": 58703.676773,
     "perpDepth2PctUsd": null,
     "perpBidDepth2PctUsd": null,
     "perpAskDepth2PctUsd": null,
     "depth2PctUsd": null,
-    "observedDepth2PctUsd": 132232.239476,
+    "observedDepth2PctUsd": 126905.16441399998,
     "depthCoverage": "spot_only",
-    "dexLiquidityUsd": 25891523.760000005,
-    "dexVolume24hUsd": 93130682.28999999,
+    "dexLiquidityUsd": 26895942.230000004,
+    "dexVolume24hUsd": 62968373.94,
     "dexPairCount": 30,
     "fundingRatePct": null,
     "openInterestTokens": null,
@@ -37,451 +37,394 @@
     "liquidations24hUsd": null
   },
   "revenue": {
-    "protocolRevenue7dUsd": 6246892,
-    "protocolRevenue30dUsd": 22312630,
-    "previousProtocolRevenue7dUsd": 10258022,
+    "protocolRevenue7dUsd": 5538341,
+    "protocolRevenue30dUsd": 21358099,
+    "previousProtocolRevenue7dUsd": null,
     "previousProtocolRevenue30dUsd": null,
-    "fees7dUsd": 37417799,
-    "fees30dUsd": 124872067,
-    "creatorRevenue7dUsd": 31170907,
-    "creatorRevenue30dUsd": 102559437,
-    "holderRevenue30dUsd": 12637038,
-    "v1Revenue7dUsd": 251727,
-    "v1Revenue30dUsd": 1562825,
-    "v2Revenue7dUsd": 5995165,
-    "v2Revenue30dUsd": 20749805,
-    "v1HolderRevenue30dUsd": 12637038,
+    "fees7dUsd": 34942451,
+    "fees30dUsd": 128683573,
+    "creatorRevenue7dUsd": 29404110,
+    "creatorRevenue30dUsd": 107325474,
+    "holderRevenue30dUsd": 13541620,
+    "v1Revenue7dUsd": null,
+    "v1Revenue30dUsd": null,
+    "v2Revenue7dUsd": 5538341,
+    "v2Revenue30dUsd": 21358099,
+    "v1HolderRevenue30dUsd": 13541620,
     "v2HolderRevenue30dUsd": null,
-    "v2RevenueShare30dPct": 92.99578310580151,
+    "v2RevenueShare30dPct": 100,
     "cumulativeProtocolRevenueUsd": 32493473.46,
     "cumulativeCreatorEarningsUsd": 125025261.26000002,
-    "annualizedProtocolRevenueYieldPct": 59.99177045417747,
-    "annualizedHolderRevenueYieldPct": 33.97709202889654,
-    "marketCapToAnnualizedProtocolRevenue": 1.6668952965204011,
-    "marketCapToAnnualizedHolderRevenue": 2.9431594650581885,
-    "holderCaptureToProtocolRevenuePct": 56.636254892408466,
+    "annualizedProtocolRevenueYieldPct": 58.1884600732992,
+    "annualizedHolderRevenueYieldPct": 36.89307811045308,
+    "marketCapToAnnualizedProtocolRevenue": 1.718553814176065,
+    "marketCapToAnnualizedHolderRevenue": 2.710535556307148,
+    "holderCaptureToProtocolRevenuePct": 63.40274010341464,
     "series": [
       {
         "date": "2026-07-14",
-        "v1RevenueUsd": 16347,
         "v1FeesUsd": 159750
       },
       {
         "date": "2026-07-15",
-        "v1RevenueUsd": 81828,
         "v1FeesUsd": 683026
       },
       {
         "date": "2026-07-16",
-        "v1RevenueUsd": 143906,
         "v1FeesUsd": 518446
       },
       {
         "date": "2026-07-17",
-        "v1RevenueUsd": 108006,
         "v1FeesUsd": 387233
       },
       {
         "date": "2026-07-18",
-        "v1RevenueUsd": 129313,
         "v1FeesUsd": 458896
       },
       {
         "date": "2026-07-19",
-        "v1RevenueUsd": 156398,
         "v1FeesUsd": 546628
       },
       {
         "date": "2026-07-20",
-        "v1RevenueUsd": 296207,
         "v1FeesUsd": 1010243
       },
       {
         "date": "2026-07-21",
-        "v1RevenueUsd": 450179,
         "v1FeesUsd": 1535814
       },
       {
         "date": "2026-07-22",
-        "v1RevenueUsd": 387059,
         "v1FeesUsd": 1311611
       },
       {
         "date": "2026-07-23",
-        "v1RevenueUsd": 367003,
         "v1FeesUsd": 1283312
       },
       {
         "date": "2026-07-24",
-        "v1RevenueUsd": 331836,
         "v1FeesUsd": 1121193
       },
       {
         "date": "2026-07-25",
-        "v1RevenueUsd": 272228,
         "v1FeesUsd": 900719
       },
       {
         "date": "2026-07-26",
-        "v1RevenueUsd": 387747,
         "v1FeesUsd": 1303955
       },
       {
         "date": "2026-07-27",
-        "v1RevenueUsd": 270835,
         "v1FeesUsd": 1074846
       },
       {
         "date": "2026-07-28",
-        "v1RevenueUsd": 219498,
         "v1FeesUsd": 862002
       },
       {
         "date": "2026-07-29",
-        "v1RevenueUsd": 186313,
         "v1FeesUsd": 738922
       },
       {
         "date": "2026-07-30",
-        "v1RevenueUsd": 119636,
         "v1FeesUsd": 462410
       },
       {
         "date": "2026-07-31",
-        "v1RevenueUsd": 125031,
         "v1FeesUsd": 489955
       },
       {
         "date": "2026-08-01",
-        "v1RevenueUsd": 94607,
         "v1FeesUsd": 388464
       },
       {
         "date": "2026-08-02",
-        "v1RevenueUsd": 89137,
         "v1FeesUsd": 349070
       },
       {
         "date": "2026-08-03",
-        "v1RevenueUsd": 85713,
         "v1FeesUsd": 345317
       },
       {
         "date": "2026-08-04",
-        "v1RevenueUsd": 93769,
         "v2RevenueUsd": 7436,
         "v1FeesUsd": 384871,
         "v2FeesUsd": 31868
       },
       {
         "date": "2026-08-05",
-        "v1RevenueUsd": 83965,
         "v2RevenueUsd": 9263,
         "v1FeesUsd": 355117,
         "v2FeesUsd": 37080
       },
       {
         "date": "2026-08-06",
-        "v1RevenueUsd": 92154,
         "v2RevenueUsd": 11561,
         "v1FeesUsd": 388617,
         "v2FeesUsd": 47216
       },
       {
         "date": "2026-08-07",
-        "v1RevenueUsd": 89520,
         "v2RevenueUsd": 41243,
         "v1FeesUsd": 384625,
         "v2FeesUsd": 160398
       },
       {
         "date": "2026-08-08",
-        "v1RevenueUsd": 88679,
         "v2RevenueUsd": 44013,
         "v1FeesUsd": 368278,
         "v2FeesUsd": 185548
       },
       {
         "date": "2026-08-09",
-        "v1RevenueUsd": 86863,
         "v2RevenueUsd": 25858,
         "v1FeesUsd": 359394,
         "v2FeesUsd": 128397
       },
       {
         "date": "2026-08-10",
-        "v1RevenueUsd": 89392,
         "v2RevenueUsd": 56440,
         "v1FeesUsd": 371609,
         "v2FeesUsd": 219987
       },
       {
         "date": "2026-08-11",
-        "v1RevenueUsd": 84706,
         "v2RevenueUsd": 25347,
         "v1FeesUsd": 343432,
         "v2FeesUsd": 101102
       },
       {
         "date": "2026-08-12",
-        "v1RevenueUsd": 80913,
         "v2RevenueUsd": 36850,
         "v1FeesUsd": 337462,
         "v2FeesUsd": 180944
       },
       {
         "date": "2026-08-13",
-        "v1RevenueUsd": 41242,
         "v2RevenueUsd": 54255,
         "v1FeesUsd": 177675,
         "v2FeesUsd": 288761
       },
       {
         "date": "2026-08-14",
-        "v1RevenueUsd": 48855,
         "v2RevenueUsd": 99583,
         "v1FeesUsd": 204341,
         "v2FeesUsd": 517025
       },
       {
         "date": "2026-08-15",
-        "v1RevenueUsd": 46147,
         "v2RevenueUsd": 40835,
         "v1FeesUsd": 191065,
         "v2FeesUsd": 259439
       },
       {
         "date": "2026-08-16",
-        "v1RevenueUsd": 34359,
         "v2RevenueUsd": 25006,
         "v1FeesUsd": 144786,
         "v2FeesUsd": 139098
       },
       {
         "date": "2026-08-17",
-        "v1RevenueUsd": 29626,
         "v2RevenueUsd": 31000,
         "v1FeesUsd": 123949,
         "v2FeesUsd": 160688
       },
       {
         "date": "2026-08-18",
-        "v1RevenueUsd": 24560,
         "v2RevenueUsd": 45756,
         "v1FeesUsd": 102805,
         "v2FeesUsd": 236153
       },
       {
         "date": "2026-08-19",
-        "v1RevenueUsd": 26487,
         "v2RevenueUsd": 39449,
         "v1FeesUsd": 112384,
         "v2FeesUsd": 196053
       },
       {
         "date": "2026-08-20",
-        "v1RevenueUsd": 23375,
         "v2RevenueUsd": 31611,
         "v1FeesUsd": 98262,
         "v2FeesUsd": 154262
       },
       {
         "date": "2026-08-21",
-        "v1RevenueUsd": 36613,
         "v2RevenueUsd": 48966,
         "v1FeesUsd": 153448,
         "v2FeesUsd": 260926
       },
       {
         "date": "2026-08-22",
-        "v1RevenueUsd": 38826,
         "v2RevenueUsd": 49747,
         "v1FeesUsd": 158072,
         "v2FeesUsd": 253620
       },
       {
         "date": "2026-08-23",
-        "v1RevenueUsd": 31900,
         "v2RevenueUsd": 52687,
         "v1FeesUsd": 139202,
         "v2FeesUsd": 221419
       },
       {
         "date": "2026-08-24",
-        "v1RevenueUsd": 60140,
         "v2RevenueUsd": 75397,
         "v1FeesUsd": 264102,
         "v2FeesUsd": 349655
       },
       {
         "date": "2026-08-25",
-        "v1RevenueUsd": 61528,
         "v2RevenueUsd": 141220,
         "v1FeesUsd": 271809,
         "v2FeesUsd": 983188
       },
       {
         "date": "2026-08-26",
-        "v1RevenueUsd": 66857,
         "v2RevenueUsd": 222304,
         "v1FeesUsd": 306011,
         "v2FeesUsd": 1195775
       },
       {
         "date": "2026-08-27",
-        "v1RevenueUsd": 55425,
         "v2RevenueUsd": 339310,
         "v1FeesUsd": 248443,
         "v2FeesUsd": 2089382
       },
       {
         "date": "2026-08-28",
-        "v1RevenueUsd": 37196,
         "v2RevenueUsd": 294493,
         "v1FeesUsd": 167665,
         "v2FeesUsd": 1773176
       },
       {
         "date": "2026-08-29",
-        "v1RevenueUsd": 82293,
         "v2RevenueUsd": 550173,
         "v1FeesUsd": 366386,
         "v2FeesUsd": 3460512
       },
       {
         "date": "2026-08-30",
-        "v1RevenueUsd": 141937,
         "v2RevenueUsd": 868850,
         "v1FeesUsd": 634252,
         "v2FeesUsd": 4704070
       },
       {
         "date": "2026-08-31",
-        "v1RevenueUsd": 109821,
         "v2RevenueUsd": 864731,
         "v1FeesUsd": 510110,
         "v2FeesUsd": 4382354
       },
       {
         "date": "2026-09-01",
-        "v1RevenueUsd": 71773,
         "v2RevenueUsd": 838745,
         "v1FeesUsd": 338631,
         "v2FeesUsd": 4221588
       },
       {
         "date": "2026-09-02",
-        "v1RevenueUsd": 53358,
         "v2RevenueUsd": 1063316,
         "v1FeesUsd": 260984,
         "v2FeesUsd": 5702128
       },
       {
         "date": "2026-09-03",
-        "v1RevenueUsd": 66673,
         "v2RevenueUsd": 1191323,
         "v1FeesUsd": 326641,
         "v2FeesUsd": 6085253
       },
       {
         "date": "2026-09-04",
-        "v1RevenueUsd": 57306,
         "v2RevenueUsd": 1788459,
         "v1FeesUsd": 299539,
         "v2FeesUsd": 8750574
       },
       {
         "date": "2026-09-05",
-        "v1RevenueUsd": 73759,
         "v2RevenueUsd": 1983214,
         "v1FeesUsd": 363566,
         "v2FeesUsd": 11055150
       },
       {
         "date": "2026-09-06",
-        "v1RevenueUsd": 70951,
         "v2RevenueUsd": 1527744,
         "v1FeesUsd": 363428,
         "v2FeesUsd": 8383839
       },
       {
         "date": "2026-09-07",
-        "v1RevenueUsd": 47310,
         "v2RevenueUsd": 1424091,
         "v1FeesUsd": 255169,
         "v2FeesUsd": 8293062
       },
       {
         "date": "2026-09-08",
-        "v1RevenueUsd": 43384,
         "v2RevenueUsd": 1282054,
         "v1FeesUsd": 228085,
         "v2FeesUsd": 8448498
       },
       {
         "date": "2026-09-09",
-        "v1RevenueUsd": 44901,
         "v2RevenueUsd": 1096118,
         "v1FeesUsd": 227513,
         "v2FeesUsd": 6343978
       },
       {
         "date": "2026-09-10",
-        "v1RevenueUsd": 42831,
         "v2RevenueUsd": 977343,
         "v1FeesUsd": 217497,
         "v2FeesUsd": 5633614
       },
       {
         "date": "2026-09-11",
-        "v1RevenueUsd": 41647,
         "v2RevenueUsd": 1045675,
         "v1FeesUsd": 208677,
         "v2FeesUsd": 6201885
       },
       {
         "date": "2026-09-12",
-        "v1RevenueUsd": 28813,
         "v2RevenueUsd": 850138,
         "v1FeesUsd": 137878,
         "v2FeesUsd": 5683856
       },
       {
         "date": "2026-09-13",
-        "v1RevenueUsd": 60516,
         "v2RevenueUsd": 1005593,
         "v1FeesUsd": 260619,
         "v2FeesUsd": 6134920
       },
       {
         "date": "2026-09-14",
-        "v1RevenueUsd": 33019,
         "v2RevenueUsd": 1020298,
         "v1FeesUsd": 160926,
         "v2FeesUsd": 6206436
+      },
+      {
+        "date": "2026-09-15",
+        "v2RevenueUsd": 639294,
+        "v1FeesUsd": 122538,
+        "v2FeesUsd": 3973605
       }
     ]
   },
   "capture": {
-    "deadBalanceTokens": 312060423.62446475,
-    "deadBalancePct": 31.206042362446475,
-    "deadBalanceDeltaTokens": 1400787.993053615,
-    "deadBalanceDeltaUsd": 878009.7116820269,
+    "deadBalanceTokens": 312795833.7412604,
+    "deadBalancePct": 31.27958337412604,
+    "deadBalanceDeltaTokens": 735410.1167956591,
+    "deadBalanceDeltaUsd": 454386.37804430025,
     "attributedBuyback30dUsd": null,
-    "pendingBuybackUsd": 1245923.7486986234,
-    "pendingBuybackToRevenue30dPct": 5.583939449086116,
-    "splitterValueUsd": 570876.26156494,
+    "pendingBuybackUsd": 1587918.701258533,
+    "pendingBuybackToRevenue30dPct": 7.434737994512212,
+    "splitterValueUsd": 132993.57933684165,
     "intakeValueUsd": 0,
-    "escrowValueUsd": 1245923.7486986234,
+    "escrowValueUsd": 1587918.701258533,
     "note": "死地址增量仅表示通缩变化；完成交易路径归因前不计为协议回购。"
   },
   "activity": {
-    "ponsLaunches24h": 31139,
-    "poolsLaunches24h": 57,
-    "ponsIssuanceShareProvisionalPct": 99.81728426721375,
+    "ponsLaunches24h": 31170,
+    "poolsLaunches24h": 66,
+    "ponsIssuanceShareProvisionalPct": 99.7887053399923,
     "issuanceShareQuality": "partial_mixed_window",
-    "launchesAllTime": 775363,
-    "volumeAllTimeUsd": 12828620613.444431,
+    "launchesAllTime": 775394,
+    "volumeAllTimeUsd": 13279351898.464455,
     "curveVolume30dUsd": null,
     "postGraduationVolume30dUsd": null,
     "ponsTradeShare30dPct": null,
@@ -489,7 +432,7 @@
   },
   "retention": {
     "uniqueCreators30d": null,
-    "uniqueCreatorsAllTime": 332156,
+    "uniqueCreatorsAllTime": 340891,
     "creatorRepeatRate30dPct": null,
     "graduationRate30dPct": null,
     "graduatedProjectD7RetentionPct": null,
@@ -504,25 +447,25 @@
     "exchangeNetflow24hTokens": null,
     "largeTransfers": [
       {
-        "blockNumber": 64108133,
-        "txHash": "0x94cbd06f184898264d6421fe31c14189b926becd3b4418ebb8441cfd0b6b03ea",
-        "from": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+        "blockNumber": 64963199,
+        "txHash": "0x2ae64d0fc07a8ea8766e61d9907d69e94a5e27904f71ac75ec4c67964aa945d0",
+        "from": "0x22b58176fd87a0d98bac34b5cc75ffecb64add71",
         "to": "0x10cc6bd38112cac182db90b6a71d8bb5939526ba",
-        "amountTokens": 1147551.23049115
+        "amountTokens": 1475561.50074037
       },
       {
-        "blockNumber": 64108133,
-        "txHash": "0x94cbd06f184898264d6421fe31c14189b926becd3b4418ebb8441cfd0b6b03ea",
-        "from": "0x70e8c19fd87d22abc804038508ac1fd7bdda67d8",
-        "to": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
-        "amountTokens": 1147551.23049115
+        "blockNumber": 64962226,
+        "txHash": "0xee7001b3c59a335d468e54ccf806af2851c12f2767b4966ca383057839390d0e",
+        "from": "0xed50bdeea8adc232f159486192a4157281d722ff",
+        "to": "0x73991a25c818bf1f1128deaab1492d45638de0d3",
+        "amountTokens": 1387029.13878146
       },
       {
-        "blockNumber": 64108133,
-        "txHash": "0x94cbd06f184898264d6421fe31c14189b926becd3b4418ebb8441cfd0b6b03ea",
-        "from": "0x10cc6bd38112cac182db90b6a71d8bb5939526ba",
-        "to": "0x70e8c19fd87d22abc804038508ac1fd7bdda67d8",
-        "amountTokens": 1135821.96036982
+        "blockNumber": 64962226,
+        "txHash": "0xee7001b3c59a335d468e54ccf806af2851c12f2767b4966ca383057839390d0e",
+        "from": "0x73991a25c818bf1f1128deaab1492d45638de0d3",
+        "to": "0x22b58176fd87a0d98bac34b5cc75ffecb64add71",
+        "amountTokens": 1387029.13878146
       }
     ],
     "largeTransferScanBlocks": 12001,
@@ -551,8 +494,17 @@
       "label": "Pons Analytics",
       "url": "https://www.ponsfamily.com/api/pons-analytics?v=dune-v2",
       "status": "current",
-      "checkedAt": "2026-09-16T01:23:30.186Z",
-      "latencyMs": 267,
+      "checkedAt": "2026-09-17T01:24:00.814Z",
+      "latencyMs": 478,
+      "note": null
+    },
+    {
+      "key": "dexscreener",
+      "label": "DexScreener",
+      "url": "https://api.dexscreener.com/latest/dex/tokens/0x39dBED3a2bd333467115dE45665cC57F813C4571",
+      "status": "current",
+      "checkedAt": "2026-09-17T01:24:00.814Z",
+      "latencyMs": 317,
       "note": null
     },
     {
@@ -560,71 +512,53 @@
       "label": "Pons Buyback Status",
       "url": "https://www.ponsfamily.com/api/pons-buyback-status?v=buyback-v1",
       "status": "current",
-      "checkedAt": "2026-09-16T01:23:30.186Z",
-      "latencyMs": 237,
+      "checkedAt": "2026-09-17T01:24:00.814Z",
+      "latencyMs": 411,
       "note": null
-    },
-    {
-      "key": "binance_premium",
-      "label": "Binance Futures premium",
-      "url": "https://fapi.binance.com/fapi/v1/premiumIndex?symbol=PONSUSDT",
-      "status": "failed",
-      "checkedAt": "2026-09-16T01:23:30.186Z",
-      "latencyMs": 303,
-      "note": "HTTP 451"
     },
     {
       "key": "binance_depth",
       "label": "Binance Futures depth",
       "url": "https://fapi.binance.com/fapi/v1/depth?symbol=PONSUSDT&limit=1000",
       "status": "failed",
-      "checkedAt": "2026-09-16T01:23:30.186Z",
-      "latencyMs": 305,
+      "checkedAt": "2026-09-17T01:24:00.814Z",
+      "latencyMs": 488,
       "note": "HTTP 451"
     },
     {
-      "key": "binance_oi",
-      "label": "Binance Futures open interest",
-      "url": "https://fapi.binance.com/fapi/v1/openInterest?symbol=PONSUSDT",
+      "key": "binance_premium",
+      "label": "Binance Futures premium",
+      "url": "https://fapi.binance.com/fapi/v1/premiumIndex?symbol=PONSUSDT",
       "status": "failed",
-      "checkedAt": "2026-09-16T01:23:30.186Z",
-      "latencyMs": 314,
+      "checkedAt": "2026-09-17T01:24:00.814Z",
+      "latencyMs": 488,
       "note": "HTTP 451"
-    },
-    {
-      "key": "dexscreener",
-      "label": "DexScreener",
-      "url": "https://api.dexscreener.com/latest/dex/tokens/0x39dBED3a2bd333467115dE45665cC57F813C4571",
-      "status": "current",
-      "checkedAt": "2026-09-16T01:23:30.186Z",
-      "latencyMs": 344,
-      "note": null
-    },
-    {
-      "key": "llama_pons-v2_dailyFees",
-      "label": "DefiLlama pons-v2 dailyFees",
-      "url": "https://api.llama.fi/summary/fees/pons-v2?dataType=dailyFees",
-      "status": "current",
-      "checkedAt": "2026-09-16T01:23:30.186Z",
-      "latencyMs": 416,
-      "note": null
-    },
-    {
-      "key": "llama_pons-v1_dailyFees",
-      "label": "DefiLlama pons-v1 dailyFees",
-      "url": "https://api.llama.fi/summary/fees/pons-v1?dataType=dailyFees",
-      "status": "current",
-      "checkedAt": "2026-09-16T01:23:30.186Z",
-      "latencyMs": 420,
-      "note": null
     },
     {
       "key": "coingecko",
       "label": "CoinGecko",
       "url": "https://api.coingecko.com/api/v3/coins/pons",
       "status": "current",
-      "checkedAt": "2026-09-16T01:23:30.186Z",
-      "latencyMs": 488,
+      "checkedAt": "2026-09-17T01:24:00.814Z",
+      "latencyMs": 516,
+      "note": null
+    },
+    {
+      "key": "binance_oi",
+      "label": "Binance Futures open interest",
+      "url": "https://fapi.binance.com/fapi/v1/openInterest?symbol=PONSUSDT",
+      "status": "failed",
+      "checkedAt": "2026-09-17T01:24:00.814Z",
+      "latencyMs": 541,
+      "note": "HTTP 451"
+    },
+    {
+      "key": "llama_pons-v2_dailyFees",
+      "label": "DefiLlama pons-v2 dailyFees",
+      "url": "https://api.llama.fi/summary/fees/pons-v2?dataType=dailyFees",
+      "status": "current",
+      "checkedAt": "2026-09-17T01:24:00.814Z",
+      "latencyMs": 607,
       "note": null
     },
     {
@@ -632,8 +566,8 @@
       "label": "KuCoin spot depth",
       "url": "https://api.kucoin.com/api/v1/market/orderbook/level2_100?symbol=PONS-USDT",
       "status": "current",
-      "checkedAt": "2026-09-16T01:23:30.186Z",
-      "latencyMs": 528,
+      "checkedAt": "2026-09-17T01:24:00.814Z",
+      "latencyMs": 787,
       "note": null
     },
     {
@@ -641,17 +575,8 @@
       "label": "Robinhood Chain RPC",
       "url": "https://rpc.mainnet.chain.robinhood.com",
       "status": "current",
-      "checkedAt": "2026-09-16T01:23:30.186Z",
-      "latencyMs": 617,
-      "note": null
-    },
-    {
-      "key": "llama_pons-v1_dailyHoldersRevenue",
-      "label": "DefiLlama pons-v1 dailyHoldersRevenue",
-      "url": "https://api.llama.fi/summary/fees/pons-v1?dataType=dailyHoldersRevenue",
-      "status": "current",
-      "checkedAt": "2026-09-16T01:23:30.186Z",
-      "latencyMs": 1333,
+      "checkedAt": "2026-09-17T01:24:00.814Z",
+      "latencyMs": 879,
       "note": null
     },
     {
@@ -659,25 +584,43 @@
       "label": "DefiLlama pons-v2 dailyRevenue",
       "url": "https://api.llama.fi/summary/fees/pons-v2?dataType=dailyRevenue",
       "status": "current",
-      "checkedAt": "2026-09-16T01:23:30.186Z",
-      "latencyMs": 2742,
+      "checkedAt": "2026-09-17T01:24:00.814Z",
+      "latencyMs": 8290,
+      "note": null
+    },
+    {
+      "key": "llama_pons-v1_dailyHoldersRevenue",
+      "label": "DefiLlama pons-v1 dailyHoldersRevenue",
+      "url": "https://api.llama.fi/summary/fees/pons-v1?dataType=dailyHoldersRevenue",
+      "status": "current",
+      "checkedAt": "2026-09-17T01:24:00.814Z",
+      "latencyMs": 8291,
+      "note": null
+    },
+    {
+      "key": "llama_pons-v1_dailyFees",
+      "label": "DefiLlama pons-v1 dailyFees",
+      "url": "https://api.llama.fi/summary/fees/pons-v1?dataType=dailyFees",
+      "status": "current",
+      "checkedAt": "2026-09-17T01:24:00.814Z",
+      "latencyMs": 12009,
       "note": null
     },
     {
       "key": "llama_pons-v1_dailyRevenue",
       "label": "DefiLlama pons-v1 dailyRevenue",
       "url": "https://api.llama.fi/summary/fees/pons-v1?dataType=dailyRevenue",
-      "status": "current",
-      "checkedAt": "2026-09-16T01:23:30.186Z",
-      "latencyMs": 5242,
-      "note": null
+      "status": "failed",
+      "checkedAt": "2026-09-17T01:24:00.814Z",
+      "latencyMs": 30000,
+      "note": "The operation was aborted due to timeout"
     },
     {
       "key": "v2_holder_revenue",
       "label": "Pons V2 holder revenue",
       "url": "https://defillama.com/protocol/pons-v2",
       "status": "not_applicable",
-      "checkedAt": "2026-09-16T01:23:30.186Z",
+      "checkedAt": "2026-09-17T01:24:00.814Z",
       "latencyMs": null,
       "note": "V2 当前没有 PONS holder-revenue 序列；V2 回购目标是各发行项目代币。"
     }
@@ -698,9 +641,8 @@
         "state": "unknown",
         "label": "价值捕获",
         "reasons": [
-          "7日协议收入环比减少 39.1%",
           "尚无可归因到协议路径的 PONS 回购金额",
-          "死地址较上次增加 1,400,788 PONS，但归因仍待验证"
+          "死地址较上次增加 735,410 PONS，但归因仍待验证"
         ]
       },
       "retention": {
@@ -721,7 +663,7 @@
         "state": "unknown",
         "label": "流动性",
         "reasons": [
-          "仅部分市场可用，已观察深度约 $132,232，不据此触发硬阈值",
+          "仅部分市场可用，已观察深度约 $126,905，不据此触发硬阈值",
           "需要次日快照与项目集中度数据才能判断改善"
         ]
       }
