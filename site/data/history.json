@@ -8519,5 +8519,318 @@
         }
       ]
     }
+  },
+  {
+    "date": "2026-10-20",
+    "generatedAt": "2026-10-20T05:59:14.254Z",
+    "market": {
+      "priceUsd": 0.269438,
+      "priceChange24hPct": 4.19906,
+      "marketCapUsd": 181605719,
+      "fullyDilutedValueUsd": 181599882,
+      "circulatingSupplyTokens": 673646087.5085044,
+      "totalSupplyTokens": 1000000000,
+      "volume24hUsd": 24013057,
+      "marketCapRank": 196,
+      "spotDepth2PctUsd": 93007.676833,
+      "spotBidDepth2PctUsd": 46446.127827000004,
+      "spotAskDepth2PctUsd": 46561.549006,
+      "perpDepth2PctUsd": null,
+      "perpBidDepth2PctUsd": null,
+      "perpAskDepth2PctUsd": null,
+      "depth2PctUsd": null,
+      "observedDepth2PctUsd": 93007.676833,
+      "depthCoverage": "spot_only",
+      "dexLiquidityUsd": 9240839.24,
+      "dexVolume24hUsd": 11311407.550000003,
+      "dexPairCount": 30,
+      "fundingRatePct": null,
+      "openInterestTokens": null,
+      "openInterestUsd": null,
+      "basisPct": null,
+      "liquidations24hUsd": null
+    },
+    "revenue": {
+      "protocolRevenue7dUsd": 456175,
+      "protocolRevenue30dUsd": 5148319,
+      "previousProtocolRevenue7dUsd": 515099,
+      "previousProtocolRevenue30dUsd": 24587547,
+      "fees7dUsd": 3176828,
+      "fees30dUsd": 34292200,
+      "creatorRevenue7dUsd": 2720653,
+      "creatorRevenue30dUsd": 29143881,
+      "holderRevenue30dUsd": 5266434,
+      "v1Revenue7dUsd": 19273,
+      "v1Revenue30dUsd": 229271,
+      "v2Revenue7dUsd": 436902,
+      "v2Revenue30dUsd": 4919048,
+      "v1HolderRevenue30dUsd": 5266434,
+      "v2HolderRevenue30dUsd": null,
+      "v2RevenueShare30dPct": 95.54668232485206,
+      "cumulativeProtocolRevenueUsd": null,
+      "cumulativeCreatorEarningsUsd": null,
+      "annualizedProtocolRevenueYieldPct": 34.01865774942914,
+      "annualizedHolderRevenueYieldPct": 34.79912876532264,
+      "marketCapToAnnualizedProtocolRevenue": 2.939563363627364,
+      "marketCapToAnnualizedHolderRevenue": 2.873635161224211,
+      "holderCaptureToProtocolRevenuePct": 102.29424400469358
+    },
+    "capture": {
+      "deadBalanceTokens": 326390879.51527226,
+      "deadBalancePct": 32.63908795152722,
+      "deadBalanceDeltaTokens": 452752.19614720345,
+      "deadBalanceDeltaUsd": 121988.64622551021,
+      "attributedBuyback30dUsd": null,
+      "pendingBuybackUsd": null,
+      "pendingBuybackToRevenue30dPct": null,
+      "splitterValueUsd": null,
+      "intakeValueUsd": null,
+      "escrowValueUsd": null,
+      "note": "死地址增量仅表示通缩变化；完成交易路径归因前不计为协议回购。"
+    },
+    "activity": {
+      "ponsLaunches24h": null,
+      "poolsLaunches24h": 4,
+      "ponsIssuanceShareProvisionalPct": null,
+      "issuanceShareQuality": "missing",
+      "launchesAllTime": null,
+      "volumeAllTimeUsd": null,
+      "curveVolume30dUsd": null,
+      "postGraduationVolume30dUsd": null,
+      "ponsTradeShare30dPct": null,
+      "poolsTradeShare30dPct": null
+    },
+    "retention": {
+      "uniqueCreators30d": null,
+      "uniqueCreatorsAllTime": null,
+      "creatorRepeatRate30dPct": null,
+      "graduationRate30dPct": null,
+      "graduatedProjectD7RetentionPct": null,
+      "top10ProjectVolumeSharePct": null,
+      "botVolumeSharePct": null,
+      "newUserShare30dPct": null
+    },
+    "holders": {
+      "holderCount": null,
+      "top10ConcentrationPct": null,
+      "top50ConcentrationPct": null,
+      "exchangeNetflow24hTokens": null,
+      "largeTransfers": [
+        {
+          "blockNumber": 93222968,
+          "txHash": "0x0607be55b2c08a83881edd8947fcaabb1a5f48d5fd441a44ec498c19caed0ede",
+          "from": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+          "to": "0x10cc6bd38112cac182db90b6a71d8bb5939526ba",
+          "amountTokens": 10270985.51291688
+        },
+        {
+          "blockNumber": 93222968,
+          "txHash": "0x0607be55b2c08a83881edd8947fcaabb1a5f48d5fd441a44ec498c19caed0ede",
+          "from": "0x01eef8bb1ff7e792b9f5813769022fa54efbce62",
+          "to": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+          "amountTokens": 10270985.51291688
+        },
+        {
+          "blockNumber": 93222968,
+          "txHash": "0x0607be55b2c08a83881edd8947fcaabb1a5f48d5fd441a44ec498c19caed0ede",
+          "from": "0x10cc6bd38112cac182db90b6a71d8bb5939526ba",
+          "to": "0x01eef8bb1ff7e792b9f5813769022fa54efbce62",
+          "amountTokens": 10270558.85346271
+        },
+        {
+          "blockNumber": 93221614,
+          "txHash": "0x065c7066a15ffa0fcf97390720cc99cf2d7dc973c1eee06aafb1c534aa406953",
+          "from": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+          "to": "0x10cc6bd38112cac182db90b6a71d8bb5939526ba",
+          "amountTokens": 10268721.00202971
+        },
+        {
+          "blockNumber": 93221614,
+          "txHash": "0x065c7066a15ffa0fcf97390720cc99cf2d7dc973c1eee06aafb1c534aa406953",
+          "from": "0x01eef8bb1ff7e792b9f5813769022fa54efbce62",
+          "to": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+          "amountTokens": 10268721.00202971
+        },
+        {
+          "blockNumber": 93221614,
+          "txHash": "0x065c7066a15ffa0fcf97390720cc99cf2d7dc973c1eee06aafb1c534aa406953",
+          "from": "0x10cc6bd38112cac182db90b6a71d8bb5939526ba",
+          "to": "0x01eef8bb1ff7e792b9f5813769022fa54efbce62",
+          "amountTokens": 10268633.80704799
+        },
+        {
+          "blockNumber": 93221146,
+          "txHash": "0xc3d2be118e9065c7bb70f3bff5982db9c2e332642d128b187788fbdfaf371b6b",
+          "from": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+          "to": "0x10cc6bd38112cac182db90b6a71d8bb5939526ba",
+          "amountTokens": 10234204.2966198
+        },
+        {
+          "blockNumber": 93221146,
+          "txHash": "0xc3d2be118e9065c7bb70f3bff5982db9c2e332642d128b187788fbdfaf371b6b",
+          "from": "0x01eef8bb1ff7e792b9f5813769022fa54efbce62",
+          "to": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+          "amountTokens": 10234204.2966198
+        },
+        {
+          "blockNumber": 93221146,
+          "txHash": "0xc3d2be118e9065c7bb70f3bff5982db9c2e332642d128b187788fbdfaf371b6b",
+          "from": "0x10cc6bd38112cac182db90b6a71d8bb5939526ba",
+          "to": "0x01eef8bb1ff7e792b9f5813769022fa54efbce62",
+          "amountTokens": 10234117.89228476
+        },
+        {
+          "blockNumber": 93220958,
+          "txHash": "0x59f2b30d74a042a4d2e825947f37bac6f494e35a22d1ede7f71895ec8ada87cb",
+          "from": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+          "to": "0x10cc6bd38112cac182db90b6a71d8bb5939526ba",
+          "amountTokens": 3585736.95747175
+        },
+        {
+          "blockNumber": 93220958,
+          "txHash": "0x59f2b30d74a042a4d2e825947f37bac6f494e35a22d1ede7f71895ec8ada87cb",
+          "from": "0xd7572f7ed161d3c46ca86d7da52d94d4b2d104a9",
+          "to": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+          "amountTokens": 3585736.95747175
+        },
+        {
+          "blockNumber": 93220958,
+          "txHash": "0x59f2b30d74a042a4d2e825947f37bac6f494e35a22d1ede7f71895ec8ada87cb",
+          "from": "0x10cc6bd38112cac182db90b6a71d8bb5939526ba",
+          "to": "0xd7572f7ed161d3c46ca86d7da52d94d4b2d104a9",
+          "amountTokens": 3582484.78863215
+        },
+        {
+          "blockNumber": 93218215,
+          "txHash": "0x0cecf5bf51a783c12605fd5de46e60f05088abcfa086b0a7566a1aaec10794f1",
+          "from": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+          "to": "0x10cc6bd38112cac182db90b6a71d8bb5939526ba",
+          "amountTokens": 2630593.0494384
+        },
+        {
+          "blockNumber": 93218215,
+          "txHash": "0x0cecf5bf51a783c12605fd5de46e60f05088abcfa086b0a7566a1aaec10794f1",
+          "from": "0xaa41e6c3e2ed947e54d4fc4ecca7de2013602299",
+          "to": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+          "amountTokens": 2630593.0494384
+        },
+        {
+          "blockNumber": 93218215,
+          "txHash": "0x0cecf5bf51a783c12605fd5de46e60f05088abcfa086b0a7566a1aaec10794f1",
+          "from": "0x10cc6bd38112cac182db90b6a71d8bb5939526ba",
+          "to": "0xaa41e6c3e2ed947e54d4fc4ecca7de2013602299",
+          "amountTokens": 2630500.09308981
+        },
+        {
+          "blockNumber": 93216185,
+          "txHash": "0x675156cc6211b65826e10fb696db94411603f493e75b0d4719d70a8cb61bfb6b",
+          "from": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+          "to": "0x10cc6bd38112cac182db90b6a71d8bb5939526ba",
+          "amountTokens": 2630036.98384722
+        },
+        {
+          "blockNumber": 93216185,
+          "txHash": "0x675156cc6211b65826e10fb696db94411603f493e75b0d4719d70a8cb61bfb6b",
+          "from": "0xaa41e6c3e2ed947e54d4fc4ecca7de2013602299",
+          "to": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+          "amountTokens": 2630036.98384722
+        },
+        {
+          "blockNumber": 93216185,
+          "txHash": "0x675156cc6211b65826e10fb696db94411603f493e75b0d4719d70a8cb61bfb6b",
+          "from": "0x10cc6bd38112cac182db90b6a71d8bb5939526ba",
+          "to": "0xaa41e6c3e2ed947e54d4fc4ecca7de2013602299",
+          "amountTokens": 2629951.45914692
+        },
+        {
+          "blockNumber": 93226805,
+          "txHash": "0x1335864e46b92872dd41d4685eb87b1334d6c794adde57f63a35a223ed560e58",
+          "from": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+          "to": "0x10cc6bd38112cac182db90b6a71d8bb5939526ba",
+          "amountTokens": 2624739.68341201
+        },
+        {
+          "blockNumber": 93226805,
+          "txHash": "0x1335864e46b92872dd41d4685eb87b1334d6c794adde57f63a35a223ed560e58",
+          "from": "0xaa41e6c3e2ed947e54d4fc4ecca7de2013602299",
+          "to": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+          "amountTokens": 2624739.68341201
+        }
+      ],
+      "largeTransferScanBlocks": 12001,
+      "largeTransferQuality": "partial"
+    },
+    "security": {
+      "factoryOwner": "0x263ed295dafae1d9aadd6e56c4b6f9f38ee019dd",
+      "hookOwner": "0x263ed295dafae1d9aadd6e56c4b6f9f38ee019dd",
+      "sweepOperator": "0xa1018c1d9655292a2de0f7dea9a0f848eaa8ca83",
+      "feePolicy": {
+        "protocolFeeRecipient": "0x31ea5b453a6cd60f36203830de046ff32dec2cdb",
+        "protocolFeeShareBps": 3000,
+        "buybackBurnBps": 5000,
+        "hookFeeBps": 100,
+        "maxInternalPriceImpactBps": 300
+      },
+      "auditStatus": "未发现官方正式审计报告",
+      "auditReviewedAt": "2026-09-07",
+      "auditEvidenceUrl": "https://github.com/ponsdotdev/ponsfamily",
+      "regionStatus": "需要逐地区法律复核；站点可访问性不代表合规可用",
+      "regionEvidenceUrl": "https://docs.ponsfamily.com/"
+    },
+    "decision": {
+      "status": "event_watch",
+      "label": "事件驱动观察",
+      "coveragePct": 50,
+      "coveredRequiredMetrics": 8,
+      "totalRequiredMetrics": 16,
+      "dimensions": {
+        "valueCapture": {
+          "state": "unknown",
+          "label": "价值捕获",
+          "reasons": [
+            "7日协议收入环比减少 11.4%",
+            "30日协议收入较前窗减少 79.1%",
+            "尚无可归因到协议路径的 PONS 回购金额",
+            "死地址较上次增加 452,752 PONS，但归因仍待验证"
+          ]
+        },
+        "retention": {
+          "state": "unknown",
+          "label": "留存与质量",
+          "reasons": [
+            "creator 复发、毕业 D7 留存或项目集中度仍缺实时可比数据"
+          ]
+        },
+        "security": {
+          "state": "not_improving",
+          "label": "安全与治理",
+          "reasons": [
+            "权限地址稳定，但仍未发现官方正式审计报告"
+          ]
+        },
+        "liquidity": {
+          "state": "unknown",
+          "label": "流动性",
+          "reasons": [
+            "仅部分市场可用，已观察深度约 $93,008，不据此触发硬阈值",
+            "需要次日快照与项目集中度数据才能判断改善"
+          ]
+        }
+      },
+      "alerts": [
+        {
+          "severity": "high",
+          "code": "V2_CAPTURE_GAP",
+          "title": "V2 增长没有直接回流 PONS",
+          "detail": "V2 已贡献多数协议收入，但当前未观察到 V2 对 PONS 持有人的直接收入。"
+        },
+        {
+          "severity": "medium",
+          "code": "LOW_COVERAGE",
+          "title": "关键指标覆盖不足",
+          "detail": "当前覆盖 50%，未达到升级阈值。"
+        }
+      ]
+    }
   }
 ]
