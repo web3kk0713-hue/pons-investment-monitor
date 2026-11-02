@@ -1,34 +1,34 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-01T07:29:21.528Z",
-  "date": "2026-11-01",
+  "generatedAt": "2026-11-02T07:38:22.408Z",
+  "date": "2026-11-02",
   "timezone": "Asia/Shanghai",
   "chain": {
     "name": "Robinhood Chain",
     "chainId": 4663,
     "rpc": "https://rpc.mainnet.chain.robinhood.com",
-    "block": 103211184
+    "block": 104048235
   },
   "market": {
-    "priceUsd": 0.239279,
-    "priceChange24hPct": 5.59483,
-    "marketCapUsd": 160638216,
-    "fullyDilutedValueUsd": 160636659,
-    "circulatingSupplyTokens": 671392509.4806141,
+    "priceUsd": 0.230433,
+    "priceChange24hPct": -4.08439,
+    "marketCapUsd": 154674211,
+    "fullyDilutedValueUsd": 154674211,
+    "circulatingSupplyTokens": 671232123.1904285,
     "totalSupplyTokens": 1000000000,
-    "volume24hUsd": 16231659,
-    "marketCapRank": 196,
-    "spotDepth2PctUsd": 83917.798576,
-    "spotBidDepth2PctUsd": 45944.894987,
-    "spotAskDepth2PctUsd": 37972.903589,
+    "volume24hUsd": 18355775,
+    "marketCapRank": 198,
+    "spotDepth2PctUsd": 95611.668571,
+    "spotBidDepth2PctUsd": 52439.33785500001,
+    "spotAskDepth2PctUsd": 43172.33071599999,
     "perpDepth2PctUsd": null,
     "perpBidDepth2PctUsd": null,
     "perpAskDepth2PctUsd": null,
     "depth2PctUsd": null,
-    "observedDepth2PctUsd": 83917.798576,
+    "observedDepth2PctUsd": 95611.668571,
     "depthCoverage": "spot_only",
-    "dexLiquidityUsd": 9021587.180000002,
-    "dexVolume24hUsd": 6834427.719999998,
+    "dexLiquidityUsd": 8783210.049999997,
+    "dexVolume24hUsd": 8985804.600000003,
     "dexPairCount": 30,
     "fundingRatePct": null,
     "openInterestTokens": null,
@@ -37,37 +37,30 @@
     "liquidations24hUsd": null
   },
   "revenue": {
-    "protocolRevenue7dUsd": 321313,
-    "protocolRevenue30dUsd": 2263484,
-    "previousProtocolRevenue7dUsd": 409342,
-    "previousProtocolRevenue30dUsd": 21844703,
-    "fees7dUsd": 2016933,
-    "fees30dUsd": 15398561,
-    "creatorRevenue7dUsd": 1695620,
-    "creatorRevenue30dUsd": 13135077,
-    "holderRevenue30dUsd": 3353031,
-    "v1Revenue7dUsd": 13165,
-    "v1Revenue30dUsd": 90350,
-    "v2Revenue7dUsd": 308148,
-    "v2Revenue30dUsd": 2173134,
-    "v1HolderRevenue30dUsd": 3353031,
+    "protocolRevenue7dUsd": 313642,
+    "protocolRevenue30dUsd": 2076128,
+    "previousProtocolRevenue7dUsd": 390113,
+    "previousProtocolRevenue30dUsd": 20765200,
+    "fees7dUsd": 1974432,
+    "fees30dUsd": 14166966,
+    "creatorRevenue7dUsd": 1660790,
+    "creatorRevenue30dUsd": 12090838,
+    "holderRevenue30dUsd": 3277735,
+    "v1Revenue7dUsd": 12916,
+    "v1Revenue30dUsd": 83871,
+    "v2Revenue7dUsd": 300726,
+    "v2Revenue30dUsd": 1992257,
+    "v1HolderRevenue30dUsd": 3277735,
     "v2HolderRevenue30dUsd": null,
-    "v2RevenueShare30dPct": 96.00836586430475,
+    "v2RevenueShare30dPct": 95.96022017910263,
     "cumulativeProtocolRevenueUsd": null,
     "cumulativeCreatorEarningsUsd": null,
-    "annualizedProtocolRevenueYieldPct": 16.90868379663778,
-    "annualizedHolderRevenueYieldPct": 25.04782050119381,
-    "marketCapToAnnualizedProtocolRevenue": 5.914120886209048,
-    "marketCapToAnnualizedHolderRevenue": 3.9923633273894574,
-    "holderCaptureToProtocolRevenuePct": 148.1358383801255,
+    "annualizedProtocolRevenueYieldPct": 16.107103982576643,
+    "annualizedHolderRevenueYieldPct": 25.429462187461876,
+    "marketCapToAnnualizedProtocolRevenue": 6.20844070468359,
+    "marketCapToAnnualizedHolderRevenue": 3.9324465166748785,
+    "holderCaptureToProtocolRevenuePct": 157.87730814285055,
     "series": [
-      {
-        "date": "2026-08-04",
-        "v1RevenueUsd": 116742,
-        "v2RevenueUsd": 7436,
-        "v1FeesUsd": 477234,
-        "v2FeesUsd": 31868
-      },
       {
         "date": "2026-08-05",
         "v1RevenueUsd": 105695,
@@ -686,16 +679,23 @@
       },
       {
         "date": "2026-11-01",
-        "v2RevenueUsd": 24999,
-        "v2FeesUsd": 145321
+        "v1RevenueUsd": 1147,
+        "v2RevenueUsd": 25723,
+        "v1FeesUsd": 7549,
+        "v2FeesUsd": 161681
+      },
+      {
+        "date": "2026-11-02",
+        "v2RevenueUsd": 25990,
+        "v2FeesUsd": 167823
       }
     ]
   },
   "capture": {
-    "deadBalanceTokens": 328616032.58248574,
-    "deadBalancePct": 32.86160325824857,
-    "deadBalanceDeltaTokens": 163621.86259639263,
-    "deadBalanceDeltaUsd": 39151.275660202235,
+    "deadBalanceTokens": 328772452.973548,
+    "deadBalancePct": 32.877245297354804,
+    "deadBalanceDeltaTokens": 156420.39106225967,
+    "deadBalanceDeltaUsd": 36044.41997364968,
     "attributedBuyback30dUsd": null,
     "pendingBuybackUsd": null,
     "pendingBuybackToRevenue30dPct": null,
@@ -706,7 +706,7 @@
   },
   "activity": {
     "ponsLaunches24h": null,
-    "poolsLaunches24h": 8,
+    "poolsLaunches24h": 11,
     "ponsIssuanceShareProvisionalPct": null,
     "issuanceShareQuality": "missing",
     "launchesAllTime": null,
@@ -733,144 +733,144 @@
     "exchangeNetflow24hTokens": null,
     "largeTransfers": [
       {
-        "blockNumber": 103208107,
-        "txHash": "0xf2f374cd93afbf0f1993cff16e66f5c5eb2be1a38324feedaed567487b3d925d",
+        "blockNumber": 104045268,
+        "txHash": "0x34dd3e838d7038b79df6e29dafd81a6b60da375309d8ef32423a10b72cab61b1",
         "from": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
         "to": "0x10cc6bd38112cac182db90b6a71d8bb5939526ba",
-        "amountTokens": 8355701.0460077
+        "amountTokens": 9329233.09224522
       },
       {
-        "blockNumber": 103208107,
-        "txHash": "0xf2f374cd93afbf0f1993cff16e66f5c5eb2be1a38324feedaed567487b3d925d",
+        "blockNumber": 104045268,
+        "txHash": "0x34dd3e838d7038b79df6e29dafd81a6b60da375309d8ef32423a10b72cab61b1",
+        "from": "0x273e9525bbc824b526da227eaa6c028750c1f99f",
+        "to": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+        "amountTokens": 9329233.09224522
+      },
+      {
+        "blockNumber": 104045268,
+        "txHash": "0x34dd3e838d7038b79df6e29dafd81a6b60da375309d8ef32423a10b72cab61b1",
+        "from": "0x10cc6bd38112cac182db90b6a71d8bb5939526ba",
+        "to": "0x273e9525bbc824b526da227eaa6c028750c1f99f",
+        "amountTokens": 9328108.83523718
+      },
+      {
+        "blockNumber": 104036597,
+        "txHash": "0x43761be885898f281ab2af9cfe93f75f7a80b84cb90ff7b9f0d72ad629732f95",
+        "from": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+        "to": "0x10cc6bd38112cac182db90b6a71d8bb5939526ba",
+        "amountTokens": 9282882.8602431
+      },
+      {
+        "blockNumber": 104036597,
+        "txHash": "0x43761be885898f281ab2af9cfe93f75f7a80b84cb90ff7b9f0d72ad629732f95",
+        "from": "0x273e9525bbc824b526da227eaa6c028750c1f99f",
+        "to": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+        "amountTokens": 9282882.8602431
+      },
+      {
+        "blockNumber": 104036597,
+        "txHash": "0x43761be885898f281ab2af9cfe93f75f7a80b84cb90ff7b9f0d72ad629732f95",
+        "from": "0x10cc6bd38112cac182db90b6a71d8bb5939526ba",
+        "to": "0x273e9525bbc824b526da227eaa6c028750c1f99f",
+        "amountTokens": 9281758.64171662
+      },
+      {
+        "blockNumber": 104044291,
+        "txHash": "0x325461736090ef8b6e543a4341ad96490a3f7611985e37730b8286c6993052d4",
+        "from": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+        "to": "0x10cc6bd38112cac182db90b6a71d8bb5939526ba",
+        "amountTokens": 9144680.0772604
+      },
+      {
+        "blockNumber": 104044291,
+        "txHash": "0x325461736090ef8b6e543a4341ad96490a3f7611985e37730b8286c6993052d4",
         "from": "0x01eef8bb1ff7e792b9f5813769022fa54efbce62",
         "to": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
-        "amountTokens": 8355701.0460077
+        "amountTokens": 9144680.0772604
       },
       {
-        "blockNumber": 103208107,
-        "txHash": "0xf2f374cd93afbf0f1993cff16e66f5c5eb2be1a38324feedaed567487b3d925d",
+        "blockNumber": 104044291,
+        "txHash": "0x325461736090ef8b6e543a4341ad96490a3f7611985e37730b8286c6993052d4",
         "from": "0x10cc6bd38112cac182db90b6a71d8bb5939526ba",
         "to": "0x01eef8bb1ff7e792b9f5813769022fa54efbce62",
-        "amountTokens": 8355507.0174428
+        "amountTokens": 9144579.67865308
       },
       {
-        "blockNumber": 103204524,
-        "txHash": "0x74ed0e62ae5afa23398961eb8f07750fbd201bc5d210e590b0a9b548ed18c686",
+        "blockNumber": 104037203,
+        "txHash": "0x03c3475ff2aa51183810c49b6f4633249fbe707ff05db82a66d0336ff70a70a7",
         "from": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
         "to": "0x10cc6bd38112cac182db90b6a71d8bb5939526ba",
-        "amountTokens": 8342527.34681179
+        "amountTokens": 9094338.2606491
       },
       {
-        "blockNumber": 103204524,
-        "txHash": "0x74ed0e62ae5afa23398961eb8f07750fbd201bc5d210e590b0a9b548ed18c686",
+        "blockNumber": 104037203,
+        "txHash": "0x03c3475ff2aa51183810c49b6f4633249fbe707ff05db82a66d0336ff70a70a7",
         "from": "0x01eef8bb1ff7e792b9f5813769022fa54efbce62",
         "to": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
-        "amountTokens": 8342527.34681179
+        "amountTokens": 9094338.2606491
       },
       {
-        "blockNumber": 103204524,
-        "txHash": "0x74ed0e62ae5afa23398961eb8f07750fbd201bc5d210e590b0a9b548ed18c686",
+        "blockNumber": 104037203,
+        "txHash": "0x03c3475ff2aa51183810c49b6f4633249fbe707ff05db82a66d0336ff70a70a7",
         "from": "0x10cc6bd38112cac182db90b6a71d8bb5939526ba",
         "to": "0x01eef8bb1ff7e792b9f5813769022fa54efbce62",
-        "amountTokens": 8342435.57893147
+        "amountTokens": 9094241.81596201
       },
       {
-        "blockNumber": 103203191,
-        "txHash": "0x2aa998cb3bb8e1f14eb662d8ecf839fdef9aa96b4888d030a0ea05f202c08a6b",
+        "blockNumber": 104045429,
+        "txHash": "0x4baa86d917c81a0e74012e7171f47fd757883b2b60580def5bfc6e250bfcad81",
         "from": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
         "to": "0x10cc6bd38112cac182db90b6a71d8bb5939526ba",
-        "amountTokens": 2350923.93923049
+        "amountTokens": 2332653.1414657
       },
       {
-        "blockNumber": 103203191,
-        "txHash": "0x2aa998cb3bb8e1f14eb662d8ecf839fdef9aa96b4888d030a0ea05f202c08a6b",
-        "from": "0x83a8b294afd2943ce9be2838b3cb6525251a2bb8",
+        "blockNumber": 104045429,
+        "txHash": "0x4baa86d917c81a0e74012e7171f47fd757883b2b60580def5bfc6e250bfcad81",
+        "from": "0xaa41e6c3e2ed947e54d4fc4ecca7de2013602299",
         "to": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
-        "amountTokens": 2350923.93923049
+        "amountTokens": 2332653.1414657
       },
       {
-        "blockNumber": 103203191,
-        "txHash": "0x2aa998cb3bb8e1f14eb662d8ecf839fdef9aa96b4888d030a0ea05f202c08a6b",
+        "blockNumber": 104045429,
+        "txHash": "0x4baa86d917c81a0e74012e7171f47fd757883b2b60580def5bfc6e250bfcad81",
         "from": "0x10cc6bd38112cac182db90b6a71d8bb5939526ba",
-        "to": "0x83a8b294afd2943ce9be2838b3cb6525251a2bb8",
-        "amountTokens": 2350833.32685791
+        "to": "0xaa41e6c3e2ed947e54d4fc4ecca7de2013602299",
+        "amountTokens": 2332559.47960838
       },
       {
-        "blockNumber": 103203403,
-        "txHash": "0xb84cf8289abbe2dea6aea42dfd3349e1f9ee71c03a6e18145521e4d774074c3a",
+        "blockNumber": 104040024,
+        "txHash": "0xd52125822e7bf29ae03953c6ae84aa588f042ef1133db535bfec7fb45030a82b",
         "from": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
         "to": "0x10cc6bd38112cac182db90b6a71d8bb5939526ba",
-        "amountTokens": 2350833.32685791
+        "amountTokens": 2326882.86150364
       },
       {
-        "blockNumber": 103203403,
-        "txHash": "0xb84cf8289abbe2dea6aea42dfd3349e1f9ee71c03a6e18145521e4d774074c3a",
-        "from": "0x83a8b294afd2943ce9be2838b3cb6525251a2bb8",
+        "blockNumber": 104040024,
+        "txHash": "0xd52125822e7bf29ae03953c6ae84aa588f042ef1133db535bfec7fb45030a82b",
+        "from": "0xaa41e6c3e2ed947e54d4fc4ecca7de2013602299",
         "to": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
-        "amountTokens": 2350833.32685791
+        "amountTokens": 2326882.86150364
       },
       {
-        "blockNumber": 103203403,
-        "txHash": "0xb84cf8289abbe2dea6aea42dfd3349e1f9ee71c03a6e18145521e4d774074c3a",
+        "blockNumber": 104042220,
+        "txHash": "0x4ec37520da8cf4fa8efb38fd34ef1b643ae61a8ce1a3ec9d5306a46dfaa9a985",
+        "from": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+        "to": "0x10cc6bd38112cac182db90b6a71d8bb5939526ba",
+        "amountTokens": 2326882.8615036
+      },
+      {
+        "blockNumber": 104042220,
+        "txHash": "0x4ec37520da8cf4fa8efb38fd34ef1b643ae61a8ce1a3ec9d5306a46dfaa9a985",
+        "from": "0xaa41e6c3e2ed947e54d4fc4ecca7de2013602299",
+        "to": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+        "amountTokens": 2326882.8615036
+      },
+      {
+        "blockNumber": 104042220,
+        "txHash": "0x4ec37520da8cf4fa8efb38fd34ef1b643ae61a8ce1a3ec9d5306a46dfaa9a985",
         "from": "0x10cc6bd38112cac182db90b6a71d8bb5939526ba",
-        "to": "0x83a8b294afd2943ce9be2838b3cb6525251a2bb8",
-        "amountTokens": 2350742.0593064
-      },
-      {
-        "blockNumber": 103203689,
-        "txHash": "0x6d54337aa76e0f4c0ef24012754a1b48f718f55f89267bd67637f85e642be810",
-        "from": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
-        "to": "0x10cc6bd38112cac182db90b6a71d8bb5939526ba",
-        "amountTokens": 2350742.0593064
-      },
-      {
-        "blockNumber": 103203689,
-        "txHash": "0x6d54337aa76e0f4c0ef24012754a1b48f718f55f89267bd67637f85e642be810",
-        "from": "0x83a8b294afd2943ce9be2838b3cb6525251a2bb8",
-        "to": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
-        "amountTokens": 2350742.0593064
-      },
-      {
-        "blockNumber": 103203689,
-        "txHash": "0x6d54337aa76e0f4c0ef24012754a1b48f718f55f89267bd67637f85e642be810",
-        "from": "0x10cc6bd38112cac182db90b6a71d8bb5939526ba",
-        "to": "0x83a8b294afd2943ce9be2838b3cb6525251a2bb8",
-        "amountTokens": 2350647.77127599
-      },
-      {
-        "blockNumber": 103204692,
-        "txHash": "0x6bed71331c5bf55fe1b7f6979a9ab2a447c18057ba9e96ae63b312107d414517",
-        "from": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
-        "to": "0x10cc6bd38112cac182db90b6a71d8bb5939526ba",
-        "amountTokens": 2329662.212011
-      },
-      {
-        "blockNumber": 103204692,
-        "txHash": "0x6bed71331c5bf55fe1b7f6979a9ab2a447c18057ba9e96ae63b312107d414517",
-        "from": "0x83a8b294afd2943ce9be2838b3cb6525251a2bb8",
-        "to": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
-        "amountTokens": 2329662.212011
-      },
-      {
-        "blockNumber": 103204692,
-        "txHash": "0x6bed71331c5bf55fe1b7f6979a9ab2a447c18057ba9e96ae63b312107d414517",
-        "from": "0x10cc6bd38112cac182db90b6a71d8bb5939526ba",
-        "to": "0x83a8b294afd2943ce9be2838b3cb6525251a2bb8",
-        "amountTokens": 2328598.72654219
-      },
-      {
-        "blockNumber": 103199439,
-        "txHash": "0x0e6ef4c242de485f72fde878005fd01479bfbb1287b038f7f849fb2a866dd62f",
-        "from": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
-        "to": "0x10cc6bd38112cac182db90b6a71d8bb5939526ba",
-        "amountTokens": 2311739.35621012
-      },
-      {
-        "blockNumber": 103199439,
-        "txHash": "0x0e6ef4c242de485f72fde878005fd01479bfbb1287b038f7f849fb2a866dd62f",
-        "from": "0x83a8b294afd2943ce9be2838b3cb6525251a2bb8",
-        "to": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
-        "amountTokens": 2311739.35621012
+        "to": "0xaa41e6c3e2ed947e54d4fc4ecca7de2013602299",
+        "amountTokens": 2326789.12188289
       }
     ],
     "largeTransferScanBlocks": 12001,
@@ -899,26 +899,26 @@
       "label": "DexScreener",
       "url": "https://api.dexscreener.com/latest/dex/tokens/0x39dBED3a2bd333467115dE45665cC57F813C4571",
       "status": "current",
-      "checkedAt": "2026-11-01T07:29:21.528Z",
-      "latencyMs": 153,
+      "checkedAt": "2026-11-02T07:38:22.408Z",
+      "latencyMs": 131,
       "note": null
-    },
-    {
-      "key": "binance_premium",
-      "label": "Binance Futures premium",
-      "url": "https://fapi.binance.com/fapi/v1/premiumIndex?symbol=PONSUSDT",
-      "status": "failed",
-      "checkedAt": "2026-11-01T07:29:21.528Z",
-      "latencyMs": 173,
-      "note": "HTTP 451"
     },
     {
       "key": "binance_depth",
       "label": "Binance Futures depth",
       "url": "https://fapi.binance.com/fapi/v1/depth?symbol=PONSUSDT&limit=1000",
       "status": "failed",
-      "checkedAt": "2026-11-01T07:29:21.528Z",
-      "latencyMs": 175,
+      "checkedAt": "2026-11-02T07:38:22.408Z",
+      "latencyMs": 164,
+      "note": "HTTP 451"
+    },
+    {
+      "key": "binance_premium",
+      "label": "Binance Futures premium",
+      "url": "https://fapi.binance.com/fapi/v1/premiumIndex?symbol=PONSUSDT",
+      "status": "failed",
+      "checkedAt": "2026-11-02T07:38:22.408Z",
+      "latencyMs": 163,
       "note": "HTTP 451"
     },
     {
@@ -926,89 +926,62 @@
       "label": "Binance Futures open interest",
       "url": "https://fapi.binance.com/fapi/v1/openInterest?symbol=PONSUSDT",
       "status": "failed",
-      "checkedAt": "2026-11-01T07:29:21.528Z",
-      "latencyMs": 197,
+      "checkedAt": "2026-11-02T07:38:22.408Z",
+      "latencyMs": 167,
       "note": "HTTP 451"
-    },
-    {
-      "key": "coingecko",
-      "label": "CoinGecko",
-      "url": "https://api.coingecko.com/api/v3/coins/pons",
-      "status": "current",
-      "checkedAt": "2026-11-01T07:29:21.528Z",
-      "latencyMs": 225,
-      "note": null
     },
     {
       "key": "llama_pons-v1_dailyHoldersRevenue",
       "label": "DefiLlama pons-v1 dailyHoldersRevenue",
       "url": "https://api.llama.fi/summary/fees/pons-v1?dataType=dailyHoldersRevenue",
       "status": "current",
-      "checkedAt": "2026-11-01T07:29:21.528Z",
-      "latencyMs": 218,
+      "checkedAt": "2026-11-02T07:38:22.408Z",
+      "latencyMs": 339,
       "note": null
-    },
-    {
-      "key": "llama_pons-v2_dailyRevenue",
-      "label": "DefiLlama pons-v2 dailyRevenue",
-      "url": "https://api.llama.fi/summary/fees/pons-v2?dataType=dailyRevenue",
-      "status": "current",
-      "checkedAt": "2026-11-01T07:29:21.528Z",
-      "latencyMs": 221,
-      "note": null
-    },
-    {
-      "key": "llama_pons-v1_dailyRevenue",
-      "label": "DefiLlama pons-v1 dailyRevenue",
-      "url": "https://api.llama.fi/summary/fees/pons-v1?dataType=dailyRevenue",
-      "status": "current",
-      "checkedAt": "2026-11-01T07:29:21.528Z",
-      "latencyMs": 235,
-      "note": null
-    },
-    {
-      "key": "pons_analytics",
-      "label": "Pons Analytics",
-      "url": "https://www.ponsfamily.com/api/pons-analytics?v=dune-v2",
-      "status": "failed",
-      "checkedAt": "2026-11-01T07:29:21.528Z",
-      "latencyMs": 378,
-      "note": "HTTP 403"
-    },
-    {
-      "key": "pons_buyback",
-      "label": "Pons Buyback Status",
-      "url": "https://www.ponsfamily.com/api/pons-buyback-status?v=buyback-v1",
-      "status": "failed",
-      "checkedAt": "2026-11-01T07:29:21.528Z",
-      "latencyMs": 330,
-      "note": "HTTP 403"
     },
     {
       "key": "kucoin_depth",
       "label": "KuCoin spot depth",
       "url": "https://api.kucoin.com/api/v1/market/orderbook/level2_100?symbol=PONS-USDT",
       "status": "current",
-      "checkedAt": "2026-11-01T07:29:21.528Z",
-      "latencyMs": 328,
+      "checkedAt": "2026-11-02T07:38:22.408Z",
+      "latencyMs": 369,
       "note": null
     },
     {
-      "key": "llama_pons-v1_dailyFees",
-      "label": "DefiLlama pons-v1 dailyFees",
-      "url": "https://api.llama.fi/summary/fees/pons-v1?dataType=dailyFees",
+      "key": "coingecko",
+      "label": "CoinGecko",
+      "url": "https://api.coingecko.com/api/v3/coins/pons",
       "status": "current",
-      "checkedAt": "2026-11-01T07:29:21.528Z",
-      "latencyMs": 420,
+      "checkedAt": "2026-11-02T07:38:22.408Z",
+      "latencyMs": 377,
       "note": null
+    },
+    {
+      "key": "pons_buyback",
+      "label": "Pons Buyback Status",
+      "url": "https://www.ponsfamily.com/api/pons-buyback-status?v=buyback-v1",
+      "status": "failed",
+      "checkedAt": "2026-11-02T07:38:22.408Z",
+      "latencyMs": 472,
+      "note": "HTTP 403"
+    },
+    {
+      "key": "pons_analytics",
+      "label": "Pons Analytics",
+      "url": "https://www.ponsfamily.com/api/pons-analytics?v=dune-v2",
+      "status": "failed",
+      "checkedAt": "2026-11-02T07:38:22.408Z",
+      "latencyMs": 520,
+      "note": "HTTP 403"
     },
     {
       "key": "robinhood_rpc",
       "label": "Robinhood Chain RPC",
       "url": "https://rpc.mainnet.chain.robinhood.com",
       "status": "current",
-      "checkedAt": "2026-11-01T07:29:21.528Z",
-      "latencyMs": 448,
+      "checkedAt": "2026-11-02T07:38:22.408Z",
+      "latencyMs": 574,
       "note": null
     },
     {
@@ -1016,8 +989,35 @@
       "label": "DefiLlama pons-v2 dailyFees",
       "url": "https://api.llama.fi/summary/fees/pons-v2?dataType=dailyFees",
       "status": "current",
-      "checkedAt": "2026-11-01T07:29:21.528Z",
-      "latencyMs": 962,
+      "checkedAt": "2026-11-02T07:38:22.408Z",
+      "latencyMs": 1059,
+      "note": null
+    },
+    {
+      "key": "llama_pons-v1_dailyFees",
+      "label": "DefiLlama pons-v1 dailyFees",
+      "url": "https://api.llama.fi/summary/fees/pons-v1?dataType=dailyFees",
+      "status": "current",
+      "checkedAt": "2026-11-02T07:38:22.408Z",
+      "latencyMs": 1115,
+      "note": null
+    },
+    {
+      "key": "llama_pons-v2_dailyRevenue",
+      "label": "DefiLlama pons-v2 dailyRevenue",
+      "url": "https://api.llama.fi/summary/fees/pons-v2?dataType=dailyRevenue",
+      "status": "current",
+      "checkedAt": "2026-11-02T07:38:22.408Z",
+      "latencyMs": 1116,
+      "note": null
+    },
+    {
+      "key": "llama_pons-v1_dailyRevenue",
+      "label": "DefiLlama pons-v1 dailyRevenue",
+      "url": "https://api.llama.fi/summary/fees/pons-v1?dataType=dailyRevenue",
+      "status": "current",
+      "checkedAt": "2026-11-02T07:38:22.408Z",
+      "latencyMs": 1122,
       "note": null
     },
     {
@@ -1025,7 +1025,7 @@
       "label": "Pons V2 holder revenue",
       "url": "https://defillama.com/protocol/pons-v2",
       "status": "not_applicable",
-      "checkedAt": "2026-11-01T07:29:21.528Z",
+      "checkedAt": "2026-11-02T07:38:22.408Z",
       "latencyMs": null,
       "note": "V2 当前没有 PONS holder-revenue 序列；V2 回购目标是各发行项目代币。"
     }
@@ -1046,10 +1046,10 @@
         "state": "unknown",
         "label": "价值捕获",
         "reasons": [
-          "7日协议收入环比减少 21.5%",
-          "30日协议收入较前窗减少 89.6%",
+          "7日协议收入环比减少 19.6%",
+          "30日协议收入较前窗减少 90.0%",
           "尚无可归因到协议路径的 PONS 回购金额",
-          "死地址较上次增加 163,622 PONS，但归因仍待验证"
+          "死地址较上次增加 156,420 PONS，但归因仍待验证"
         ]
       },
       "retention": {
@@ -1070,7 +1070,7 @@
         "state": "unknown",
         "label": "流动性",
         "reasons": [
-          "仅部分市场可用，已观察深度约 $83,918，不据此触发硬阈值",
+          "仅部分市场可用，已观察深度约 $95,612，不据此触发硬阈值",
           "需要次日快照与项目集中度数据才能判断改善"
         ]
       }
